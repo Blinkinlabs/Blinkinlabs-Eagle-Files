@@ -3883,7 +3883,7 @@ Source: 008-0260-0_E.pdf</description>
 <rectangle x1="-2.7" y1="-2.05" x2="-1.7" y2="-1.15" layer="51" rot="R180"/>
 </package>
 <package name="OSHW-LOGO-S">
-<polygon width="0.15" layer="21">
+<polygon width="0.15" layer="25">
 <vertex x="0.3947" y="-0.9528" curve="9.498218"/>
 <vertex x="0.5465" y="-0.8746"/>
 <vertex x="0.9235" y="-1.182"/>
@@ -3920,7 +3920,7 @@ Source: 008-0260-0_E.pdf</description>
 </polygon>
 </package>
 <package name="OSHW-LOGO-M">
-<polygon width="0.15" layer="21">
+<polygon width="0.15" layer="25">
 <vertex x="0.6578" y="-1.588" curve="9.499253"/>
 <vertex x="0.9108" y="-1.4576"/>
 <vertex x="1.5392" y="-1.97"/>
