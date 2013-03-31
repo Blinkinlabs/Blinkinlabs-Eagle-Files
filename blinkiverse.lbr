@@ -4558,6 +4558,12 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <pad name="PAD@15" x="0.5" y="-1.5" drill="0.6" diameter="2" shape="square" stop="no" thermals="no"/>
 <pad name="PAD@16" x="1.5" y="-1.5" drill="0.6" diameter="2" stop="no" thermals="no"/>
 </package>
+<package name="CRYSTAL_3215">
+<smd name="P$1" x="-1.27" y="0" dx="1" dy="1.8" layer="1"/>
+<smd name="P$2" x="1.23" y="0" dx="1" dy="1.8" layer="1"/>
+<wire x1="-0.77" y1="1" x2="0.73" y2="1" width="0.127" layer="21"/>
+<wire x1="0.73" y1="-1" x2="-0.77" y2="-1" width="0.127" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="ARDUINO_LEONARDO-REV3B_SMARTPRJ_ATMEGA32U4">
@@ -8772,6 +8778,15 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="3215" package="CRYSTAL_3215">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
 </connects>
 <technologies>
 <technology name=""/>
