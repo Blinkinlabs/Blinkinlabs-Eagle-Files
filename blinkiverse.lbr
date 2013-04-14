@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -3805,7 +3805,7 @@ Source: 008-0260-0_E.pdf</description>
 <text x="-2.54" y="2.54" size="1.27" layer="25">&gt;NAME</text>
 <text x="-2.54" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="XS3225">
+<package name="CRYSTAL_3225">
 <smd name="P$1" x="-1.1" y="-0.8" dx="1.4" dy="1.15" layer="1"/>
 <smd name="P$2" x="1.1" y="-0.8" dx="1.4" dy="1.15" layer="1"/>
 <smd name="P$3" x="1.1" y="0.8" dx="1.4" dy="1.15" layer="1"/>
@@ -4563,6 +4563,22 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <smd name="P$2" x="1.23" y="0" dx="1" dy="1.8" layer="1"/>
 <wire x1="-0.77" y1="1" x2="0.73" y2="1" width="0.127" layer="21"/>
 <wire x1="0.73" y1="-1" x2="-0.77" y2="-1" width="0.127" layer="21"/>
+</package>
+<package name="WS2811_CONNECTOR">
+<smd name="DATA" x="0" y="2.95" dx="0.8" dy="0.4" layer="1"/>
+<smd name="5V" x="0" y="0" dx="0.8" dy="0.4" layer="1"/>
+<smd name="GND" x="0" y="-2.95" dx="0.8" dy="0.4" layer="1"/>
+</package>
+<package name="CRSYTAL_2520">
+<smd name="P$1" x="-0.85" y="-0.65" dx="1.2" dy="1" layer="1"/>
+<smd name="P$2" x="0.85" y="-0.65" dx="1.2" dy="1" layer="1"/>
+<smd name="P$3" x="0.85" y="0.65" dx="1.2" dy="1" layer="1"/>
+<smd name="P$4" x="-0.85" y="0.65" dx="1.2" dy="1" layer="1"/>
+<wire x1="-1" y1="-1" x2="1.3" y2="-1" width="0.127" layer="21"/>
+<wire x1="1.3" y1="-1" x2="1.3" y2="1" width="0.127" layer="21"/>
+<wire x1="1.3" y1="1" x2="-1.3" y2="1" width="0.127" layer="21"/>
+<wire x1="-1.3" y1="1" x2="-1.3" y2="-0.7" width="0.127" layer="21"/>
+<wire x1="-1.3" y1="-0.7" x2="-1" y2="-1" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -8509,6 +8525,15 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <text x="0" y="0" size="1.778" layer="104" rot="R90">&gt;NAME</text>
 <text x="30.48" y="0" size="1.778" layer="104" rot="R90">&gt;VALUE</text>
 </symbol>
+<symbol name="WS2811_CONNECTOR">
+<pin name="DATA" x="-7.62" y="2.54" visible="pad" length="middle"/>
+<pin name="5V" x="-7.62" y="0" visible="pad" length="middle"/>
+<pin name="GND" x="-7.62" y="-2.54" visible="pad" length="middle"/>
+<wire x1="-2.54" y1="5.08" x2="0" y2="5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="5.08" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-5.08" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="ARDUINO_LEONARDO-REV3B_SMARTPRJ_ATMEGA32U4-XU">
@@ -8621,6 +8646,53 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 </technologies>
 </device>
 <device name="" package="QFN44ML7X7_LONGLEADS">
+<connects>
+<connect gate="G$1" pin="(#HWB)PE2" pad="33"/>
+<connect gate="G$1" pin="(ADC0)PF0" pad="41"/>
+<connect gate="G$1" pin="(ADC1)PF1" pad="40"/>
+<connect gate="G$1" pin="(ADC11/PCINT4)PB4" pad="28"/>
+<connect gate="G$1" pin="(ADC4/TCK)PF4" pad="39"/>
+<connect gate="G$1" pin="(ADC5/TMS)PF5" pad="38"/>
+<connect gate="G$1" pin="(ADC6/TDO)PF6" pad="37"/>
+<connect gate="G$1" pin="(ADC7/TDI)PF7" pad="36"/>
+<connect gate="G$1" pin="(ICP1/ADC8)PD4" pad="25"/>
+<connect gate="G$1" pin="(ICP3/CLK0/OC4A)PC7" pad="32"/>
+<connect gate="G$1" pin="(INT6/AIN0)PE6" pad="1"/>
+<connect gate="G$1" pin="(OC0B/SCL/INT0)PD0" pad="18"/>
+<connect gate="G$1" pin="(OC3A/#0C4A)PC6" pad="31"/>
+<connect gate="G$1" pin="(PCINT5/OC1A/#OC4B/ADC12)PB5" pad="29"/>
+<connect gate="G$1" pin="(PCINT6/OC1B/OC4B/ADC13)PB6" pad="30"/>
+<connect gate="G$1" pin="(PCINT7/OC0A/OC1C/#RTS)PB7" pad="12"/>
+<connect gate="G$1" pin="(PD0/MISO/PCINT3)PB3" pad="11"/>
+<connect gate="G$1" pin="(PDI/MOSI/PCINT2)PB2" pad="10"/>
+<connect gate="G$1" pin="(RXD1/AIN1/INT2)PD2" pad="20"/>
+<connect gate="G$1" pin="(SCLK/PCINT1)PB1" pad="9"/>
+<connect gate="G$1" pin="(SDA/INT1)PD1" pad="19"/>
+<connect gate="G$1" pin="(SS/PCINT0)PB0" pad="8"/>
+<connect gate="G$1" pin="(T0/OC4D/ADC10)PD7" pad="27"/>
+<connect gate="G$1" pin="(T1/#OC4D/ADC9)PD6" pad="26"/>
+<connect gate="G$1" pin="(TXD1/INT3)PD3" pad="21"/>
+<connect gate="G$1" pin="(XCK1/#CTS)PD5" pad="22"/>
+<connect gate="G$1" pin="AREF" pad="42"/>
+<connect gate="G$1" pin="AVCC" pad="24"/>
+<connect gate="G$1" pin="AVCC1" pad="44"/>
+<connect gate="G$1" pin="D+" pad="4"/>
+<connect gate="G$1" pin="D-" pad="3"/>
+<connect gate="G$1" pin="GND" pad="15"/>
+<connect gate="G$1" pin="GND1" pad="23"/>
+<connect gate="G$1" pin="GND2" pad="35"/>
+<connect gate="G$1" pin="GND3" pad="43"/>
+<connect gate="G$1" pin="PAD" pad="PAD@1 PAD@2 PAD@3 PAD@4 PAD@5 PAD@6 PAD@7 PAD@8 PAD@9 PAD@10 PAD@11 PAD@12 PAD@13 PAD@14 PAD@15 PAD@16"/>
+<connect gate="G$1" pin="RESET" pad="13"/>
+<connect gate="G$1" pin="UCAP" pad="6"/>
+<connect gate="G$1" pin="UGND" pad="5"/>
+<connect gate="G$1" pin="UVCC" pad="2"/>
+<connect gate="G$1" pin="VBUS" pad="7"/>
+<connect gate="G$1" pin="VCC" pad="14"/>
+<connect gate="G$1" pin="VCC1" pad="34"/>
+<connect gate="G$1" pin="XTAL1" pad="17"/>
+<connect gate="G$1" pin="XTAL2" pad="16"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -8774,7 +8846,7 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <gate name="G$1" symbol="Q" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="XS3225">
+<device name="3225" package="CRYSTAL_3225">
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$3"/>
@@ -8787,6 +8859,15 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="2520" package="CRSYTAL_2520">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$3"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -9147,6 +9228,23 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <connect gate="G$1" pin="GND2" pad="OGND"/>
 <connect gate="G$1" pin="VIN" pad="VIN"/>
 <connect gate="G$1" pin="VOUT" pad="VOUT"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="WS2811_CONNECTOR">
+<gates>
+<gate name="G$1" symbol="WS2811_CONNECTOR" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="WS2811_CONNECTOR">
+<connects>
+<connect gate="G$1" pin="5V" pad="5V"/>
+<connect gate="G$1" pin="DATA" pad="DATA"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
 </connects>
 <technologies>
 <technology name=""/>
