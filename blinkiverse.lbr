@@ -1257,6 +1257,8 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <pad name="PAD@16" x="1.5" y="-1.5" drill="0.6" diameter="2" stop="no" thermals="no"/>
 </package>
 <package name="MICRO_USB_THRUHOLE">
+<description>An SMT/Thru-hole Micro USB footprint. Based on the AUK recommended layout for part:
+MCSB5ABSQ-4-GXX-R1K-H</description>
 <smd name="P$1" x="-1.3" y="2.675" dx="0.4" dy="1.35" layer="1"/>
 <smd name="P$2" x="-0.65" y="2.675" dx="0.4" dy="1.35" layer="1"/>
 <smd name="P$3" x="0" y="2.675" dx="0.4" dy="1.35" layer="1"/>
@@ -1269,14 +1271,14 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <wire x1="-3" y1="-1.45" x2="3" y2="-1.45" width="0.127" layer="51" style="shortdash"/>
 <hole x="-1.95" y="1.9" drill="0.8"/>
 <hole x="1.95" y="1.9" drill="0.8"/>
-<smd name="P$6" x="-3.3" y="2.8" dx="1.25" dy="1.4" layer="1" roundness="75"/>
-<smd name="P$7" x="3.3" y="2.8" dx="1.25" dy="1.4" layer="16" roundness="75"/>
-<smd name="P$8" x="-3.6" y="0" dx="1.25" dy="1.9" layer="1" roundness="75"/>
-<smd name="P$9" x="3.6" y="0" dx="1.25" dy="1.9" layer="1" roundness="75"/>
-<smd name="P$10" x="-3.3" y="2.8" dx="1.25" dy="1.4" layer="16" roundness="75"/>
-<smd name="P$11" x="-3.6" y="0" dx="1.25" dy="1.9" layer="16" roundness="75"/>
-<smd name="P$12" x="3.6" y="0" dx="1.25" dy="1.9" layer="16" roundness="75"/>
-<smd name="P$13" x="3.3" y="2.8" dx="1.25" dy="1.4" layer="1" roundness="75"/>
+<smd name="P$6" x="-3.3" y="2.8" dx="1.45" dy="1.6" layer="1" roundness="75" thermals="no" cream="no"/>
+<smd name="P$7" x="3.3" y="2.8" dx="1.45" dy="1.6" layer="16" roundness="75" thermals="no" cream="no"/>
+<smd name="P$8" x="-3.6" y="0" dx="1.45" dy="2.1" layer="1" roundness="75" thermals="no" cream="no"/>
+<smd name="P$9" x="3.6" y="0" dx="1.45" dy="2.1" layer="1" roundness="75" thermals="no" cream="no"/>
+<smd name="P$10" x="-3.3" y="2.8" dx="1.45" dy="1.6" layer="16" roundness="75" thermals="no" cream="no"/>
+<smd name="P$11" x="-3.6" y="0" dx="1.45" dy="2.1" layer="16" roundness="75" thermals="no" cream="no"/>
+<smd name="P$12" x="3.6" y="0" dx="1.45" dy="2.1" layer="16" roundness="75" thermals="no" cream="no"/>
+<smd name="P$13" x="3.3" y="2.8" dx="1.45" dy="1.6" layer="1" roundness="75" thermals="no" cream="no"/>
 <wire x1="-3.175" y1="0.5" x2="-3.175" y2="-0.5" width="0.127" layer="46"/>
 <wire x1="-3.175" y1="-0.5" x2="-3.425" y2="-0.75" width="0.127" layer="46" curve="-90"/>
 <wire x1="-3.425" y1="-0.75" x2="-3.775" y2="-0.75" width="0.127" layer="46"/>
@@ -1309,6 +1311,8 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <wire x1="3.475" y1="3.3" x2="3.725" y2="3.05" width="0.127" layer="46" curve="-90"/>
 <wire x1="3.725" y1="3.05" x2="3.725" y2="2.55" width="0.127" layer="46"/>
 <wire x1="3.725" y1="2.55" x2="3.475" y2="2.3" width="0.127" layer="46" curve="-90"/>
+<smd name="PAD$4" x="-1.2" y="0" dx="1.9" dy="1.9" layer="1"/>
+<smd name="PAD$5" x="1.2" y="0" dx="1.9" dy="1.9" layer="1"/>
 </package>
 </packages>
 <symbols>
