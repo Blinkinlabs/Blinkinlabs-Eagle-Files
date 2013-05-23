@@ -1085,22 +1085,22 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <smd name="44" x="-2.5" y="3.525" dx="1.25" dy="0.275" layer="1" roundness="80" rot="R270"/>
 <text x="-3.9" y="4.55" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.9" y="-5.525" size="1.27" layer="27">&gt;VALUE</text>
-<pad name="PAD@7" x="0.5" y="0.5" drill="0.6" diameter="1" shape="square" stop="no" thermals="no"/>
-<pad name="PAD@8" x="1.5" y="0.5" drill="0.6" diameter="2" shape="square" stop="no" thermals="no"/>
-<pad name="PAD@9" x="-1.5" y="-0.5" drill="0.6" diameter="2" shape="square" stop="no" thermals="no"/>
-<pad name="PAD@6" x="-0.5" y="0.5" drill="0.6" diameter="1" shape="square" stop="no" thermals="no"/>
-<pad name="PAD@5" x="-1.5" y="0.5" drill="0.6" diameter="2" shape="square" stop="no" thermals="no"/>
-<pad name="PAD@4" x="1.5" y="1.5" drill="0.6" diameter="2" stop="no" thermals="no"/>
-<pad name="PAD@1" x="-1.5" y="1.5" drill="0.6" diameter="2" stop="no" thermals="no"/>
-<pad name="PAD@2" x="-0.5" y="1.5" drill="0.6" diameter="2" shape="square" stop="no" thermals="no"/>
-<pad name="PAD@3" x="0.5" y="1.5" drill="0.6" diameter="2" shape="square" stop="no" thermals="no"/>
-<pad name="PAD@10" x="-0.5" y="-0.5" drill="0.6" diameter="1" shape="square" stop="no" thermals="no"/>
-<pad name="PAD@11" x="0.5" y="-0.5" drill="0.6" diameter="1" shape="square" stop="no" thermals="no"/>
-<pad name="PAD@12" x="1.5" y="-0.5" drill="0.6" diameter="2" shape="square" stop="no" thermals="no"/>
-<pad name="PAD@13" x="-1.5" y="-1.5" drill="0.6" diameter="2" stop="no" thermals="no"/>
-<pad name="PAD@14" x="-0.5" y="-1.5" drill="0.6" diameter="2" shape="square" stop="no" thermals="no"/>
-<pad name="PAD@15" x="0.5" y="-1.5" drill="0.6" diameter="2" shape="square" stop="no" thermals="no"/>
-<pad name="PAD@16" x="1.5" y="-1.5" drill="0.6" diameter="2" stop="no" thermals="no"/>
+<pad name="PAD@7" x="0.5" y="0.5" drill="0.35" diameter="1" shape="square" stop="no" thermals="no"/>
+<pad name="PAD@8" x="1.5" y="0.5" drill="0.35" diameter="2" shape="square" stop="no" thermals="no"/>
+<pad name="PAD@9" x="-1.5" y="-0.5" drill="0.35" diameter="2" shape="square" stop="no" thermals="no"/>
+<pad name="PAD@6" x="-0.5" y="0.5" drill="0.35" diameter="1" shape="square" stop="no" thermals="no"/>
+<pad name="PAD@5" x="-1.5" y="0.5" drill="0.35" diameter="2" shape="square" stop="no" thermals="no"/>
+<pad name="PAD@4" x="1.5" y="1.5" drill="0.35" diameter="2" stop="no" thermals="no"/>
+<pad name="PAD@1" x="-1.5" y="1.5" drill="0.35" diameter="2" stop="no" thermals="no"/>
+<pad name="PAD@2" x="-0.5" y="1.5" drill="0.35" diameter="2" shape="square" stop="no" thermals="no"/>
+<pad name="PAD@3" x="0.5" y="1.5" drill="0.35" diameter="2" shape="square" stop="no" thermals="no"/>
+<pad name="PAD@10" x="-0.5" y="-0.5" drill="0.35" diameter="1" shape="square" stop="no" thermals="no"/>
+<pad name="PAD@11" x="0.5" y="-0.5" drill="0.35" diameter="1" shape="square" stop="no" thermals="no"/>
+<pad name="PAD@12" x="1.5" y="-0.5" drill="0.35" diameter="2" shape="square" stop="no" thermals="no"/>
+<pad name="PAD@13" x="-1.5" y="-1.5" drill="0.35" diameter="2" stop="no" thermals="no"/>
+<pad name="PAD@14" x="-0.5" y="-1.5" drill="0.35" diameter="2" shape="square" stop="no" thermals="no"/>
+<pad name="PAD@15" x="0.5" y="-1.5" drill="0.35" diameter="2" shape="square" stop="no" thermals="no"/>
+<pad name="PAD@16" x="1.5" y="-1.5" drill="0.35" diameter="2" stop="no" thermals="no"/>
 </package>
 <package name="CRYSTAL_3215">
 <smd name="P$1" x="-1.27" y="0" dx="1" dy="1.8" layer="1"/>
@@ -1239,22 +1239,22 @@ will be further integrated into the Sparkfun Library for other footprints.  It c
 <smd name="44" x="-2.5" y="3.525" dx="1.25" dy="0.275" layer="1" roundness="80" rot="R270"/>
 <text x="-3.9" y="4.55" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.9" y="-5.525" size="1.27" layer="27">&gt;VALUE</text>
-<pad name="PAD@7" x="0.5" y="0.5" drill="0.6" diameter="1" shape="square" stop="no" thermals="no"/>
-<pad name="PAD@8" x="1.5" y="0.5" drill="0.6" diameter="2" shape="square" stop="no" thermals="no"/>
-<pad name="PAD@9" x="-1.5" y="-0.5" drill="0.6" diameter="2" shape="square" stop="no" thermals="no"/>
-<pad name="PAD@6" x="-0.5" y="0.5" drill="0.6" diameter="1" shape="square" stop="no" thermals="no"/>
-<pad name="PAD@5" x="-1.5" y="0.5" drill="0.6" diameter="2" shape="square" stop="no" thermals="no"/>
-<pad name="PAD@4" x="1.5" y="1.5" drill="0.6" diameter="2" stop="no" thermals="no"/>
-<pad name="PAD@1" x="-1.5" y="1.5" drill="0.6" diameter="2" stop="no" thermals="no"/>
-<pad name="PAD@2" x="-0.5" y="1.5" drill="0.6" diameter="2" shape="square" stop="no" thermals="no"/>
-<pad name="PAD@3" x="0.5" y="1.5" drill="0.6" diameter="2" shape="square" stop="no" thermals="no"/>
-<pad name="PAD@10" x="-0.5" y="-0.5" drill="0.6" diameter="1" shape="square" stop="no" thermals="no"/>
-<pad name="PAD@11" x="0.5" y="-0.5" drill="0.6" diameter="1" shape="square" stop="no" thermals="no"/>
-<pad name="PAD@12" x="1.5" y="-0.5" drill="0.6" diameter="2" shape="square" stop="no" thermals="no"/>
-<pad name="PAD@13" x="-1.5" y="-1.5" drill="0.6" diameter="2" stop="no" thermals="no"/>
-<pad name="PAD@14" x="-0.5" y="-1.5" drill="0.6" diameter="2" shape="square" stop="no" thermals="no"/>
-<pad name="PAD@15" x="0.5" y="-1.5" drill="0.6" diameter="2" shape="square" stop="no" thermals="no"/>
-<pad name="PAD@16" x="1.5" y="-1.5" drill="0.6" diameter="2" stop="no" thermals="no"/>
+<pad name="PAD@7" x="0.5" y="0.5" drill="0.35" diameter="1" shape="square" stop="no" thermals="no"/>
+<pad name="PAD@8" x="1.5" y="0.5" drill="0.35" diameter="2" shape="square" stop="no" thermals="no"/>
+<pad name="PAD@9" x="-1.5" y="-0.5" drill="0.35" diameter="2" shape="square" stop="no" thermals="no"/>
+<pad name="PAD@6" x="-0.5" y="0.5" drill="0.35" diameter="1" shape="square" stop="no" thermals="no"/>
+<pad name="PAD@5" x="-1.5" y="0.5" drill="0.35" diameter="2" shape="square" stop="no" thermals="no"/>
+<pad name="PAD@4" x="1.5" y="1.5" drill="0.35" diameter="2" stop="no" thermals="no"/>
+<pad name="PAD@1" x="-1.5" y="1.5" drill="0.35" diameter="2" stop="no" thermals="no"/>
+<pad name="PAD@2" x="-0.5" y="1.5" drill="0.35" diameter="2" shape="square" stop="no" thermals="no"/>
+<pad name="PAD@3" x="0.5" y="1.5" drill="0.35" diameter="2" shape="square" stop="no" thermals="no"/>
+<pad name="PAD@10" x="-0.5" y="-0.5" drill="0.35" diameter="1" shape="square" stop="no" thermals="no"/>
+<pad name="PAD@11" x="0.5" y="-0.5" drill="0.35" diameter="1" shape="square" stop="no" thermals="no"/>
+<pad name="PAD@12" x="1.5" y="-0.5" drill="0.35" diameter="2" shape="square" stop="no" thermals="no"/>
+<pad name="PAD@13" x="-1.5" y="-1.5" drill="0.35" diameter="2" stop="no" thermals="no"/>
+<pad name="PAD@14" x="-0.5" y="-1.5" drill="0.35" diameter="2" shape="square" stop="no" thermals="no"/>
+<pad name="PAD@15" x="0.5" y="-1.5" drill="0.35" diameter="2" shape="square" stop="no" thermals="no"/>
+<pad name="PAD@16" x="1.5" y="-1.5" drill="0.35" diameter="2" stop="no" thermals="no"/>
 </package>
 <package name="MICRO_USB_THRUHOLE">
 <description>An SMT/Thru-hole Micro USB footprint. Based on the AUK recommended layout for part:
