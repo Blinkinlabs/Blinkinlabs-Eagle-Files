@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.025" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1313,6 +1313,9 @@ MCSB5ABSQ-4-GXX-R1K-H</description>
 <wire x1="3.725" y1="2.55" x2="3.475" y2="2.3" width="0.127" layer="46" curve="-90"/>
 <smd name="PAD$4" x="-1.2" y="0" dx="1.9" dy="1.9" layer="1"/>
 <smd name="PAD$5" x="1.2" y="0" dx="1.9" dy="1.9" layer="1"/>
+</package>
+<package name="TEST_PAD_SMT">
+<smd name="P$1" x="0" y="0" dx="2" dy="3" layer="1" thermals="no" cream="no"/>
 </package>
 </packages>
 <symbols>
@@ -5248,6 +5251,9 @@ MCSB5ABSQ-4-GXX-R1K-H</description>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 </symbol>
+<symbol name="TEST_PAD_SMT">
+<pin name="P$1" x="-5.08" y="0" length="middle"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="ARDUINO_LEONARDO-REV3B_SMARTPRJ_ATMEGA32U4-XU">
@@ -6100,6 +6106,21 @@ Standard 4-pin 0.1" header. Use with straight break away headers (SKU : PRT-0011
 <connects>
 <connect gate="G$1" pin="1" pad="P$1"/>
 <connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TEST_PAD_SMT">
+<gates>
+<gate name="G$1" symbol="TEST_PAD_SMT" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="TEST_PAD_SMT">
+<connects>
+<connect gate="G$1" pin="P$1" pad="P$1"/>
 </connects>
 <technologies>
 <technology name=""/>
