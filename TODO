@@ -1,1 +1,2 @@
 - Fix hole size on the RJ45 jacks, add holes for shroud reinforcement
+- Get rid of .dru files, move them to the projects they are associated with
