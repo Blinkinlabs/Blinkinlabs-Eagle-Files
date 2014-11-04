@@ -13,11 +13,13 @@ fi
 mkdir ${RELEASE_DIR}
 
 # Move the gerber files into the directory
-# G*L: Copper
-# G*O: SIlkscreen
-# G*S: Soldermask
-# G*P: Solder paste (for solderpaste stencil)
+# GM?: Outline, plated slot, vscore
+# G?L: Copper
+# G?O: SIlkscreen
+# G?S: Soldermask
+# G?P: Solder paste (for solderpaste stencil)
 # TXT: Drill file
+mv ${PROJECT_NAME}.GM? ${RELEASE_DIR}
 mv ${PROJECT_NAME}.G?L ${RELEASE_DIR}
 mv ${PROJECT_NAME}.G?O ${RELEASE_DIR}
 mv ${PROJECT_NAME}.G?S ${RELEASE_DIR}
